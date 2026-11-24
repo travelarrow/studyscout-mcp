@@ -9,6 +9,7 @@ This is a hosted remote server. There is nothing to install or run.
 | Endpoint | `https://www.joinstudyscout.com/api/mcp` (Streamable HTTP) |
 | Auth | `Authorization: Bearer <your API key>` |
 | MCP Registry | `com.joinstudyscout/business` |
+| Glama | [![StudyScout for Business MCP connector](https://glama.ai/mcp/connectors/com.joinstudyscout/business/badges/score.svg)](https://glama.ai/mcp/connectors/com.joinstudyscout/business) |
 
 ## Get an API key
 
