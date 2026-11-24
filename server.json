@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.joinstudyscout/business",
+  "title": "StudyScout for Business",
+  "description": "Paid studies with US adults: surveys, video ad tests, ad rankings, AI interviews, usability tests.",
+  "version": "1.0.1",
+  "websiteUrl": "https://www.joinstudyscout.com/business/agents",
+  "icons": [
+    {
+      "src": "https://www.joinstudyscout.com/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.joinstudyscout.com/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer ss_live_…: a key from your StudyScout for Business dashboard, or one your agent makes after an emailed code.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
